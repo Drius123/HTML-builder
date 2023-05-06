@@ -16,6 +16,6 @@ process.stdin.on('data', (data) => {
 	}
 })
 process.on('SIGINT', () => {
-  process.stdout.write('Ввод закончен <Ctrl + C>. Проверьте файл text.txt. Удачи'); 
+  process.stdout.write('Ввод закончен c помощью <Ctrl + C>. Проверьте файл text.txt'); 
   process.exit();
 }); 
